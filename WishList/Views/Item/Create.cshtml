@@ -2,7 +2,7 @@
 
 <h3>Add Item to wishlist</h3>
 <form asp-action="create">
-    <input asp-action="Description"/>
+    <input asp-for="Description"/>
     <span asp-validation-for="Description"></span>
     <button type="submit">Add Item</button>
 </form>
